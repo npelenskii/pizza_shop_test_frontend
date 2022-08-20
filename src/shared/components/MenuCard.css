@@ -1,0 +1,103 @@
+.pizza-item-container {
+    width: 230px;
+    height: 360px;
+    padding: 18px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: #ffffff;
+    border: 2px solid #eceef7;
+    border-radius: 10px;
+}
+
+.pizza-item-container img {
+    filter: drop-shadow(20px 10px 20px rgba(143, 92, 32, 0.1))
+        drop-shadow(10px 5px 10px rgba(143, 92, 32, 0.1));
+}
+
+.pizza-item-heading-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-item-heading-container h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #000000;
+}
+
+.pizza-item-heading-container p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #000000;
+}
+
+.pizza-item-ingradients-container {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #000000;
+    margin-bottom: auto;
+}
+
+.pizza-size-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.pizza-item-container h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+
+    color: #121146;
+}
+
+.pizza--order--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.pizza--order--container:hover {
+    border: rgb(171, 171, 171) solid 1px;
+    border-radius: 5px;
+}
+
+.pizza--order--container:active {
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 5px;
+}
+
+.pizza--order--container h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+}

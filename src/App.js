@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+    BrowserRouter as Router,
+    Navigate,
+    Route,
+    Routes,
+} from "react-router-dom";
+
+import { AuthProvider } from "./shared/context/AuthCotext";
+import { MainProvider } from "./shared/context/MainContext";
+
+import Cart from "./shared/pages/Cart";
+import Login from "./shared/pages/Login";
+import Main from "./shared/pages/Main";
+import Profile from "./shared/pages/Profile";
+
+import Footer from "./shared/components/Footer";
+import NavBar from "./shared/components/NavBar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Router>
+                <AuthProvider>
+                    <MainProvider>
+                        <NavBar />
+                        <Routes>
+                            <Route path="/" element={<Main />} exact />
+                            <Route path="/cart" exact element={<Cart />} />
+                            <Route path="/login" exact element={<Login />} />
+                            <Route path="/profile" element={<Profile />} />
+                            <Route
+                                path="/"
+                                element={<Navigate replace to="/" />}
+                            />
+                        </Routes>
+                        <Footer />
+                    </MainProvider>
+                </AuthProvider>
+            </Router>
+        </div>
+    );
 }
 
 export default App;

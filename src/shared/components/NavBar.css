@@ -1,0 +1,59 @@
+.navbar--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.navbar--container a {
+    text-decoration: none;
+}
+
+.navbar--heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 150px;
+    font-family: "Bodoni Moda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    line-height: 37px;
+
+    color: #ffffff;
+}
+
+.navbar--login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bodoni Moda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 29px;
+
+    color: #ffffff;
+}
+
+.navbar--cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    width: 150px;
+    color: #ffffff;
+}
+
+.navbar--cart h3 {
+    font-family: "Bodoni Moda";
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 29px;
+
+    color: #ffffff;
+}

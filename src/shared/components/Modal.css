@@ -1,0 +1,53 @@
+.back-modal-conteiner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-conteiner {
+    background-color: rgba(255, 255, 255, 0.646);
+    border: 0px transparent none;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 200px;
+    height: max-content;
+    padding: 20px;
+}
+
+.modal-conteiner h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: x-large;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.modal-conteiner button {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: large;
+
+    color: #000000;
+    border-radius: 5px;
+    border: 2px transparent solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+.modal-conteiner button:hover {
+    border: 2px rgb(189, 189, 189) solid;
+}
+
+.modal-conteiner button:active {
+    border: 2px rgb(79, 79, 79) solid;
+}

@@ -1,0 +1,11 @@
+.map-container {
+    width: 400px;
+    height: 400px;
+    border: 1px none transparent;
+    border-radius: 10px;
+}
+
+.marker {
+    color: yellow;
+    background-color: yellow;
+}

@@ -1,0 +1,41 @@
+.order--card--container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    min-height: 160px;
+}
+
+.order--card--container h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.order--card--container h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.order--card--date {
+    margin-bottom: auto;
+}
+
+.order--card--pizza--container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}

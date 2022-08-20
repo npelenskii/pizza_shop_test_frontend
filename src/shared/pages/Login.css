@@ -1,0 +1,95 @@
+.login--form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.login--form--container h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.login--form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--form input {
+    border: #e7e7e7 solid 2px;
+    border-radius: 10px;
+    padding: 20px 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* failed form */
+
+.login--form--failed {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--form--failed input {
+    border: #ff0000 solid 2px;
+    border-radius: 10px;
+    padding: 20px 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.form--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #e7e7e7 solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.login--form--switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #e7e7e7 solid 2px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 180);
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}

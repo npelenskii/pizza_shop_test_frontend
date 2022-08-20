@@ -1,0 +1,71 @@
+.cart--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cart--items--container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+
+    padding-bottom: 20px;
+}
+
+.cart--items--container h2,
+.cart--form--container h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.cart--items--container > h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.cart--form--container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+.cart--result--container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart--result--container h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+
+    text-align: center;
+
+    color: #000000;
+}

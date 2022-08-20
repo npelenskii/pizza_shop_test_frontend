@@ -1,0 +1,84 @@
+.size-button-normal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.size-button-normal:hover {
+    border: rgb(151, 151, 151) solid 1px;
+}
+
+.size-button-normal:active {
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+.size-button-normal p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.size-button-current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+}
+
+.size-button-current p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+}
+
+/* inverted buttons */
+
+.size-button-normal-inverted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.size-button-normal-inverted p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: white;
+}
+
+.size-button-current-inverted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.size-button-current-inverted p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: black;
+}

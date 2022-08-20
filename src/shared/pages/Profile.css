@@ -1,0 +1,29 @@
+.profile--container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile--container h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.profile--order--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}

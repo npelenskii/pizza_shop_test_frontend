@@ -1,0 +1,126 @@
+.creation--constructor--choose {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.creation--contsructor--choose--item--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    border: transparent solid 2px;
+    border-radius: 10px;
+}
+
+.creation--contsructor--choose--item--container:active {
+    border-color: #c4c4c4;
+}
+
+.creation--contsructor--choose--item--container h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.creation--contsructor--choose--item--img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: auto;
+}
+
+.creation--constructor--schema {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.creation--constructor--schema--pizza--img {
+    position: relative;
+    max-width: 90vw;
+}
+
+.creation--constructor--schema--sauce--img {
+    position: absolute;
+    max-width: 78vw;
+}
+
+.creation--contsructor--schema--cheese--img {
+    position: absolute;
+    max-width: 70vw;
+    animation: 1s show ease;
+}
+
+.creation--contsructor--schema--pepperoni--img {
+    position: absolute;
+    max-width: 70vw;
+    animation: 1s show ease;
+}
+
+.creation--contsructor--schema--bacon--img {
+    position: absolute;
+    max-width: 80vw;
+    animation: 1s show ease;
+}
+
+.creation--contsructor--schema--peppers--img {
+    position: absolute;
+    max-width: 70vw;
+    animation: 1s show ease;
+}
+
+.creation--contsructor--schema--olives--img {
+    position: absolute;
+    max-width: 70vw;
+    animation: 1s show ease;
+}
+
+.creation--contsructor--schema--chicken--img {
+    position: absolute;
+    max-width: 60vw;
+    animation: 1s show ease;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.creation--constructor--schema--button {
+    position: absolute;
+    margin-bottom: 30px;
+    background: #f6b716;
+    border: transparent solid 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.creation--constructor--schema--button:active {
+    border: #a0770e solid 2px;
+    border-radius: 20px;
+}
